@@ -1,0 +1,276 @@
+.whitelist {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 470px;
+  padding-bottom: 50px;
+}
+
+#banner_section {
+  background: url("../../images/banner-img/banner_star.png") center/contain no-repeat;
+}
+
+.banner-title {
+  position: absolute;
+  right: 39%;
+  top: 215px;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 172px;
+  color: #fff;
+  text-align: left;
+  padding: 10px 70px;
+  background: url("../../images/banner-img/title_banner.png") center/contain no-repeat;
+}
+
+@media (max-width: 1199px) {
+  .banner-title {
+    font-size: 96px;
+  }
+}
+
+.banner-title1 {
+  position: absolute;
+  left: 160px;
+  top: 380px;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff14b1;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 814px) {
+  .banner-title1 {
+    width: auto;
+    max-width: 623px;
+    right: 0px !important;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+}
+
+.whitelist p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.wallet a {
+  font-size: 16px;
+}
+
+.wallet {
+  margin-bottom: 15px;
+}
+
+.condition {
+  text-decoration: none;
+  border-bottom: 3px solid #fff;
+  padding: 5px;
+}
+
+.banner-img {
+  position: absolute;
+  left: 188px;
+  top: 167px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 232px;
+  height: 232px;
+}
+
+.banner-img1 {
+  position: absolute;
+  left: 158px;
+  top: 501px;
+  background-image: url("../../images/banner-img/shap2.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 217px;
+  height: 217px;
+}
+
+.banner-img2 {
+  position: absolute;
+  right: 109px;
+  top: 210px;
+  background-image: url("../../images/banner-img/shap3.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 226px;
+  height: 226px;
+}
+
+.banner-img3 {
+  position: absolute;
+  right: 367px;
+  top: 539px;
+  background-image: url("../../images/banner-img/shap4.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 232px;
+  height: 232px;
+}
+
+.bg_linear {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.banner-img4 {
+  position: absolute;
+  right: 100px;
+  top: 514px;
+  background-image: url("../../images/banner-img/shap5.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* ======================= responsive =================== */
+@media (max-width: 1199px) {
+  .banner-img {
+    top: 188px;
+    left: 62px;
+  }
+  .banner-img1 {
+    top: 439px;
+    left: 62px;
+  }
+  .banner-img2 {
+    top: 123px;
+    right: 42px;
+  }
+  .banner-img3 {
+    top: 400px;
+    left: 59px;
+    top: 560px;
+  }
+  .banner-img1 {
+    display: none;
+  }
+  .banner-title {
+    top: 217px;
+    right: 37%;
+    font-size: 50px;
+  }
+  .banner-title1 {
+    font-size: 50px;
+    left: 54px;
+    top: 300px;
+    right: 100px;
+  }
+  .banner-title {
+    background: none;
+  }
+  .banner-title1 {
+    background: url("../../images/banner-img/title_banner.png") center/100% 100% no-repeat;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 1199px) and (max-width: 759px) {
+  .banner-title1 {
+    padding-top: 13px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .whitelist {
+    /* padding-top: 250px; */
+    padding-bottom: 00px;
+  }
+}
+
+@media (max-width: 668px) {
+  .banner-title {
+    top: 60px;
+    font-size: 30px;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 668px) and (max-width: 400px) {
+  .banner-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 668px) {
+  .banner-title1 {
+    background: url("../../images/banner-img/title_banner.png") center/81% 72% no-repeat;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin-top: -22px;
+    top: 115px;
+    right: 0;
+    font-size: 30px;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 668px) and (max-width: 400px) {
+  .banner-title1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 668px) {
+  .banner-img {
+    width: 19%;
+    height: 75px;
+    top: 154px;
+  }
+  .banner-img2 {
+    width: 16%;
+    height: 75px;
+  }
+  .banner-img3 {
+    width: 15%;
+    height: 75px;
+    left: 59px;
+    top: 260px;
+  }
+  .banner-img4 {
+    width: 13%;
+    top: 239px;
+    right: 27px;
+  }
+  .whitelist {
+    padding-top: 135px;
+    padding-bottom: 0px;
+    left: 24px;
+  }
+  .whitelist p {
+    font-size: 11px;
+  }
+  .wallet img {
+    width: 15px;
+  }
+  .wallet a {
+    font-size: 11px;
+  }
+  .wallet {
+    width: 157px;
+    height: 35px;
+    margin-bottom: 0;
+  }
+  .condition {
+    padding: 5px;
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=Banner.css.map */

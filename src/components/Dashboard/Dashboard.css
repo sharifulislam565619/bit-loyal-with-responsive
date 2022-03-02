@@ -1,0 +1,162 @@
+#dashboard h3 {
+  color: white;
+  position: relative;
+}
+
+#dashboard h3::before {
+  content: "";
+  background: url("../../images/Star.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-35px);
+          transform: translateY(-50%) translateX(-35px);
+}
+
+#dashboard h3::after {
+  content: "";
+  background: url("../../images/Star.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(10px);
+          transform: translateY(-50%) translateX(10px);
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn {
+  background: #0f0626;
+  color: #06c1d4;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 15px;
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn.active_tab {
+  background: #06c1d4;
+  color: white;
+}
+
+#dashboard .tab_wrapper .form_wrapper {
+  position: relative;
+}
+
+#dashboard .tab_wrapper .form_wrapper .search_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#dashboard .tab_wrapper .form_wrapper input {
+  background: #0f0626;
+  color: #06c1d4;
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::-webkit-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input:-ms-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::-ms-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper {
+  color: white;
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper {
+  background: #363b52;
+  border-radius: 25px;
+  padding: 35px;
+}
+
+@media (max-width: 769px) {
+  #dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper {
+    padding: 18px;
+  }
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper img {
+  margin: auto;
+  width: 75%;
+}
+
+@media (max-width: 769px) {
+  #dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper img {
+    width: 90%;
+  }
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper .card_title {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 193, 212, 0.43)), color-stop(95.08%, #150633), to(rgba(1, 73, 145, 0)));
+  background: linear-gradient(180deg, rgba(6, 193, 212, 0.43) 0%, #150633 95.08%, rgba(1, 73, 145, 0) 100%);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
+  border-radius: 9px;
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper .content_title {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 769px) {
+  #dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper .content_title {
+    font-size: 20px;
+  }
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_wrapper .content_title span {
+  padding: 3px 5px;
+  border-radius: 8px;
+  border: 1px solid var(--round-bg);
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_content {
+  padding: 5px 0px;
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_content img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 769px) {
+  #dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_content img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_content b {
+  font-size: 25px;
+}
+
+@media (max-width: 769px) {
+  #dashboard .tab_wrapper .tab_content_wrapper .tab_card_wrapper .card_content b {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Dashboard.css.map */

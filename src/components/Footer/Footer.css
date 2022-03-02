@@ -1,0 +1,110 @@
+#footer {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#footer .footer_design {
+  position: absolute;
+  right: 0%;
+  bottom: 20%;
+  pointer-events: none;
+  height: 600px;
+}
+
+#footer .footer_title {
+  background: url("../../images/contact_us_star.png") center/contain no-repeat;
+}
+
+#footer .navbar-nav li:not(.nav-item-no-after) ::after {
+  display: inline-block;
+}
+
+#footer h1 {
+  font-family: Georama;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+  #footer h1 {
+    font-size: 36px;
+  }
+}
+
+.social-icon a {
+  color: #1f1043 !important;
+  width: 120px;
+  height: 120px;
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  font-size: 55px;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .social-icon a {
+    width: 73px;
+    height: 73px;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 769px) {
+  .social-icon a {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.social-icon li:first-child a {
+  margin-left: 0px !important;
+}
+
+.social-icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-icon li {
+  list-style: none;
+}
+
+.social-icon ul li a {
+  text-decoration: none;
+}
+
+.footerBottom li ::after {
+  content: url(../../images/icon/start8.png);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li:nth-child(5) ::after {
+  display: none;
+}
+
+.footerBottom {
+  border-top: 1px solid #473e6b;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer h1 {
+    font-size: 43px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

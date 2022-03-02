@@ -1,0 +1,6 @@
+#home {
+  background-image: url("../../images/bg/bg.png"),
+    url("../../images/bg/bg1.png");
+  background-position: 100% 0%, 100% 12%;
+  background-repeat: no-repeat, no-repeat;
+}

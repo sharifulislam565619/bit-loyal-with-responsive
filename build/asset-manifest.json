@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e671d6c6.css",
+    "main.js": "/static/js/main.71447d01.js",
+    "static/js/787.f055211e.chunk.js": "/static/js/787.f055211e.chunk.js",
+    "static/media/bg1.png": "/static/media/bg1.c2986f65ce3afec3a147.png",
+    "static/media/header_banner.png": "/static/media/header_banner.842d9bf63ac1b68e9893.png",
+    "static/media/bg.png": "/static/media/bg.b27eb105e75a873477bd.png",
+    "static/media/aboutUs.png": "/static/media/aboutUs.282847edc35988d0fb8a.png",
+    "static/media/floatin_icon.png": "/static/media/floatin_icon.19e71058d04477bf76ac.png",
+    "static/media/advanced2.png": "/static/media/advanced2.88786da339ca3eb6d701.png",
+    "static/media/shap1.png": "/static/media/shap1.0f48425e5b44dba8228b.png",
+    "static/media/shap3.png": "/static/media/shap3.66c3680ce082afe3afe2.png",
+    "static/media/shap4.png": "/static/media/shap4.914037cbd305ce82bfce.png",
+    "static/media/shap2.png": "/static/media/shap2.50ecc5682518f88950cc.png",
+    "static/media/shap5.png": "/static/media/shap5.832f94ad406d95538b38.png",
+    "static/media/nft2.png": "/static/media/nft2.bbcf633da686caf256d9.png",
+    "static/media/Group 2.png": "/static/media/Group 2.529396138317a13039fe.png",
+    "static/media/logo.png": "/static/media/logo.2cef54cc35b0be33d0af.png",
+    "index.html": "/index.html",
+    "main.e671d6c6.css.map": "/static/css/main.e671d6c6.css.map",
+    "main.71447d01.js.map": "/static/js/main.71447d01.js.map",
+    "787.f055211e.chunk.js.map": "/static/js/787.f055211e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e671d6c6.css",
+    "static/js/main.71447d01.js"
+  ]
+}

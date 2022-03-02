@@ -1,0 +1,38 @@
+.about img {
+  /* background-image: url("../../images/about-shap.png"); */
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.royal {
+  color: #c31f83;
+}
+
+.pve {
+  color: #14a151;
+}
+
+@media (max-width: 759px) {
+  #about_section {
+    margin-top: 50px !important;
+  }
+}
+
+#about_section .para_content {
+  font-size: 20px;
+}
+
+#about_section .about_us_img {
+  max-width: 476px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: auto;
+}
+
+@media (max-width: 759px) {
+  #about_section .about_us_img {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=About.css.map */

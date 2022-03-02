@@ -1,0 +1,66 @@
+.whitelist {
+  display: inline-block;
+  padding-left: 55px;
+  padding-right: 55px;
+  z-index: 100;
+  position: relative;
+  font-size: 20px;
+  padding-bottom: 200px;
+  @media (max-width: 575px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 00px;
+  }
+}
+.mint_control_box {
+  width: 506px;
+  @media (max-width: 769px) {
+    width: 70vw;
+  }
+}
+.btn_floating_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: solid;
+  z-index: 1000;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.MintBanner {
+  padding-bottom: 150px;
+  h2.price_counter {
+    font-size: 40px;
+    color: white;
+  }
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+  .controler_action {
+    margin-top: -25px;
+    .btn_mint_action {
+      background: #420d84;
+      color: white;
+      border: none;
+      padding: 15px;
+      font-size: 20px;
+      width: 100%;
+      position: relative;
+      img {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      @media (max-width: 769px) {
+        font-size: 12px;
+        width: 68%;
+        margin-top: 20px;
+      }
+    }
+  }
+}

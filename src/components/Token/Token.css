@@ -1,0 +1,72 @@
+.token {
+  background-image: url("../../images/bg/Tokenomics.png"), url("../../images/bg/100%.png"), url("../../images/bg/advanced2.png"), url("../../images/bg/advanced2.png"), url("../../images/bg/token-bg.png");
+  background-position: 47% 21%, 50% 42%, 89% 37%, 1% 103%, 100% 0%;
+  background-repeat: no-repeat;
+  padding: 220px 0px;
+}
+
+@media (max-width: 814px) {
+  .token {
+    padding: 20px 0px;
+  }
+}
+
+.token-title {
+  position: relative;
+}
+
+.token-title h1 {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.token-title small {
+  color: #07c5b2;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: 65%;
+  top: -8%;
+}
+
+.total-supply small {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #9558b8;
+}
+
+.percent {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 32px;
+  padding: 10px 20px;
+}
+
+.percent h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.percent small {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #c2abcb;
+}
+
+@media only screen and (max-width: 768px) {
+  .token-title h1 {
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .token-title small {
+    font-size: 14px;
+    left: 72%;
+    top: -8%;
+  }
+}
+/*# sourceMappingURL=Token.css.map */

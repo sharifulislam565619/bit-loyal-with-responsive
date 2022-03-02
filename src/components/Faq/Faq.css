@@ -1,0 +1,61 @@
+.faq h1 {
+  font-weight: 800;
+  font-size: 144px;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .faq h1 {
+    font-size: 64px;
+  }
+}
+
+.faq_content_box {
+  background: url("../../images/faq_star.png") center/contain no-repeat;
+}
+
+.faq h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.faq p {
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+}
+
+.accordion-body {
+  color: white;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+}
+
+.accordion-header {
+  background-color: transparent;
+}
+
+.accordion-item {
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) .accordion_minus {
+  display: block !important;
+}
+
+.accordion-button:not(.collapsed) .accordion_plus {
+  display: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+/*# sourceMappingURL=Faq.css.map */

@@ -1,0 +1,57 @@
+.roadmap h1 {
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 115px;
+  color: #fff;
+  @media (max-width: 769px) {
+    font-size: 36px;
+  }
+}
+
+.roadmap small {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #c2abcb;
+}
+
+.roadmap-years {
+  background-color: #1e103b;
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: 400px;
+  position: relative;
+  // margin: auto;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 41px;
+    width: 2px;
+    background: #ffff14;
+    height: calc(100% + 21px);
+    z-index: 1;
+  }
+  &:last-of-type {
+    &::after {
+      background: url("../../images/line_bg_roadmap.png");
+      width: 40px;
+      left: 9px;
+    }
+  }
+}
+
+.roadmap-years li {
+  font-size: 16px;
+  color: #c2abcb;
+}
+
+@media only screen and (max-width: 768px) {
+  .roadmap-years {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Roadmap.css.map */
